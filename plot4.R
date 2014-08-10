@@ -21,7 +21,7 @@ par(mfrow=c(2,2))
 plot(ds$DateTime,ds$Global_active_power,ylab="Global Active Power",
      xlab="", type = "l")
 mtext("Plot 4", line = 2, adj = 0)
-plot(ds$DateTime,ds$Voltage,ylab="Global Active Power",
+plot(ds$DateTime,ds$Voltage,ylab="Voltage",
      xlab="datetime", type = "l")
 plot(ds$DateTime,ds$Sub_metering_1,ylab="Energy sub metering",
      xlab="", type = "l")
