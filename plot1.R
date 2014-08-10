@@ -15,4 +15,5 @@ ds<-subset(fullDataSet, as.Date(DateTime) == "2007-02-01" | as.Date(DateTime) ==
 #
 png(file="plot1.png")
 hist(ds$Global_active_power,col="red", xlab="Global Active Power (kilowatts)", main = "Global Active Power")
+mtext("Plot 1", line = 2, adj = 0)
 dev.off()
